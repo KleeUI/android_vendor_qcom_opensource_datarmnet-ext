@@ -7,6 +7,7 @@ RMNET_MEM_DLKM_PLATFORMS_LIST += sun
 RMNET_MEM_DLKM_PLATFORMS_LIST += parrot
 RMNET_MEM_DLKM_PLATFORMS_LIST += monaco
 RMNET_MEM_DLKM_PLATFORMS_LIST += tuna
+RMNET_MEM_DLKM_PLATFORMS_LIST += taro
 
 ifeq ($(call is-board-platform-in-list, $(RMNET_MEM_DLKM_PLATFORMS_LIST)),true)
 LOCAL_PATH := $(call my-dir)
